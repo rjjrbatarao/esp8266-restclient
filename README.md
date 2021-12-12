@@ -1,5 +1,5 @@
 # RestClient for Arduino ESP8266 WiFi modules
-
+Modified for Mikrotik Rest Api 
 HTTP Request library for Arduino and the ESP8266 WiFi SOC modules
 
 This library now supports SSL!  To use with SSL, you need to include the SHA1 fingerprint of the certificate of the site you are connecting to.  You can get this by using a desktop browser and inspecting the SSL cert used at the site.  Please note: this is FRAGILE, if the site updates their SSL, your code will break.  But, there is not enough memory on the ESP8266 to store all the rool certs, so this is a working method.  Se the example below.
